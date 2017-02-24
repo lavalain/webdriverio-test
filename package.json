@@ -1,0 +1,16 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "integrationtest": "roc integrationtest --skipBuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "roc-plugin-test-webdriverio": "^1.0.6"
+  }
+}
